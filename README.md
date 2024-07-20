@@ -1,4 +1,4 @@
-# <img src="https://github.com/smarras79/JexpressoHmesh/blob/master/assets/logo-ext2.png" width="500" title="JEXPRESSO logo">
+# <img src="https://github.com/smarras79/JexpressoHOmesh/blob/master/assets/logo-ext2.png" width="500" title="JexpressoOHmesh">
 
 | **Contacts**  |
 | [![Simone Marras](https://img.shields.io/badge/Simone%20Marras-smarras%40njit.edu-8e7cc3)](mailto:smarras@njit.edu) |
@@ -7,14 +7,14 @@
 | **Citation** |
 | [![DOI](https://img.shields.io/badge/article-arXiv:2401.05624-green)](https://doi.org/10.48550/arXiv.2401.05624) |
 
-# JEXPRESSOHO
+# JexpressoHOmesh
 This is a simple package that reads a GMSH grid file (another reader could be added as needed) and adds high-order Legendre-Gauss-Lobatto or Legendre-Gauss nodes.
 
 Suggested Julia version: 1.10.0
 
 If you use JexpressoHmeshO please drop us a line to let us know. We'd like to add a link to your paper or work on this page.
 
-Please cite JexpressoHmeshO using:
+Please cite JexpressoHmesh with:
 
 ```
 @misc{tissaoui2024,
@@ -31,13 +31,13 @@ If you are interested in contributing, please get in touch:
 [Simone Marras](mailto:smarras@njit.edu)
 
 
-# Some notes on using JEXPRESSO
+# Some notes on using JexpressoHOmesh
 
 To install and run the code assume Julia 1.10.0
 
 ## Setup 
 
-After cloning JexpressoHmeshO do the following:
+After cloning JexpressoHOmesh do the following:
 
 1.
 ```bashx
@@ -53,13 +53,13 @@ pkg> precompile
 ```
 
 
-To run JexpressoHmeshO, do as follows:
+To run JexpressoHOmesh, do as follows:
 
 Push problem name to ARGS
 You need to do this only when you run a new problem
 ```bash
 julia> push!(empty!(ARGS), PROBLEM_CASE_NAME::String)
-julia> include("./src/JexpressoHmeshO.jl")
+julia> include("./src/JexpressoHOmesh.jl")
 ```
 
 * PROBLEM_NAME is the name of your problem directory as $JEXPRESSO/problems/problem_case_name
@@ -70,8 +70,8 @@ The path would look like
 
 Example 1:
 ```bash
-julia> push!(empty!(ARGS), "grid1");
-julia> include("./src/JexpressoHmeshO.jl")
+julia> push!(empty!(ARGS), "grid");
+julia> include("./src/JexpressoHOmesh.jl")
 ```
 
 <img src="assets/thetaTracersMeshUnstr.png"
