@@ -1,4 +1,4 @@
-# <img src="https://github.com/smarras79/JexpressoHO/blob/master/assets/logo-ext2.png" width="500" title="JEXPRESSO logo">
+# <img src="https://github.com/smarras79/JexpressoHmesh/blob/master/assets/logo-ext2.png" width="500" title="JEXPRESSO logo">
 
 | **Contacts**  |
 | [![Simone Marras](https://img.shields.io/badge/Simone%20Marras-smarras%40njit.edu-8e7cc3)](mailto:smarras@njit.edu) |
@@ -12,9 +12,9 @@ This is a simple package that reads a GMSH grid file (another reader could be ad
 
 Suggested Julia version: 1.10.0
 
-If you use JexpressoHO please drop us a line to let us know. We'd like to add a link to your paper or work on this page.
+If you use JexpressoHmeshO please drop us a line to let us know. We'd like to add a link to your paper or work on this page.
 
-Please cite JexpressoHO using:
+Please cite JexpressoHmeshO using:
 
 ```
 @misc{tissaoui2024,
@@ -37,7 +37,7 @@ To install and run the code assume Julia 1.10.0
 
 ## Setup 
 
-After cloning JexpressoHO do the following:
+After cloning JexpressoHmeshO do the following:
 
 1.
 ```bashx
@@ -53,13 +53,13 @@ pkg> precompile
 ```
 
 
-To run JexpressoHO, do as follows:
+To run JexpressoHmeshO, do as follows:
 
 Push problem name to ARGS
 You need to do this only when you run a new problem
 ```bash
 julia> push!(empty!(ARGS), PROBLEM_CASE_NAME::String)
-julia> include("./src/JexpressoHO.jl")
+julia> include("./src/JexpressoHmeshO.jl")
 ```
 
 * PROBLEM_NAME is the name of your problem directory as $JEXPRESSO/problems/problem_case_name
@@ -71,7 +71,7 @@ The path would look like
 Example 1:
 ```bash
 julia> push!(empty!(ARGS), "grid1");
-julia> include("./src/JexpressoHO.jl")
+julia> include("./src/JexpressoHmeshO.jl")
 ```
 
 <img src="assets/thetaTracersMeshUnstr.png"
