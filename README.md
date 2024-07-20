@@ -12,9 +12,9 @@ This is a simple package that reads a GMSH grid file (another reader could be ad
 
 Suggested Julia version: 1.10.0
 
-If you use JexpressoHmeshO please drop us a line to let us know. We'd like to add a link to your paper or work on this page.
+If you use JexpressoHOmesh please drop us a line to let us know. We'd like to add a link to your paper or work on this page.
 
-Please cite JexpressoHmesh with:
+Please cite JexpressoHOmesh with:
 
 ```
 @misc{tissaoui2024,
