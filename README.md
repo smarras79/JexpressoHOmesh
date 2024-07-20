@@ -10,6 +10,12 @@
 # JexpressoHOmesh
 This is a simple package that reads a GMSH grid file (another reader could be added as needed) and adds high-order Legendre-Gauss-Lobatto or Legendre-Gauss nodes.
 
+
+<img src="assets/linearToHO.png"
+     alt="Markdown icon"
+     style="float: left; margin-right: 5px;" />
+
+
 Suggested Julia version: 1.10.0
 
 If you use JexpressoHOmesh please drop us a line to let us know. We'd like to add a link to your paper or work on this page.
@@ -67,10 +73,6 @@ julia> include("./src/JexpressoHOmesh.jl")
 
 The path would look like 
 ```$JEXPRESSO/problems/problems/PROBLEM_CASE_NAME```
-
-<img src="assets/linearToHO.png"
-     alt="Markdown icon"
-     style="float: left; margin-right: 5px;" />
 
 Example 1:
 ```bash
