@@ -1,4 +1,4 @@
-# <img src="https://github.com/smarras79/JexpressoHO/blob/sm/3d/assets/logo-ext2.png" width="500" title="JEXPRESSO logo">
+# <img src="https://github.com/smarras79/JexpressoHO/blob/master/assets/logo-ext2.png" width="500" title="JEXPRESSO logo">
 
 | **Contacts**  |
 | [![Simone Marras](https://img.shields.io/badge/Simone%20Marras-smarras%40njit.edu-8e7cc3)](mailto:smarras@njit.edu) |
