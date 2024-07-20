@@ -68,6 +68,10 @@ julia> include("./src/JexpressoHOmesh.jl")
 The path would look like 
 ```$JEXPRESSO/problems/problems/PROBLEM_CASE_NAME```
 
+<img src="assets/linearToHO.png"
+     alt="Markdown icon"
+     style="float: left; margin-right: 5px;" />
+
 Example 1:
 ```bash
 julia> push!(empty!(ARGS), "grid");
