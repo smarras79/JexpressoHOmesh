@@ -2,8 +2,7 @@
 
 | **Contacts**  |
 | [![Simone Marras](https://img.shields.io/badge/Simone%20Marras-smarras%40njit.edu-8e7cc3)](mailto:smarras@njit.edu) |
-| [![Yassine Tissaoui](https://img.shields.io/badge/Yassine%20Tissaoui-yt277%40njit.edu-8e7cc3)](mailto:yt277@njit.edu) |
-| [![Hang Wang](https://img.shields.io/badge/Hang%20Wang-hang.wang%40njit.edu-8e7cc3)](mailto:hang.wang@njit.edu) |
+
 | **Citation** |
 | [![DOI](https://img.shields.io/badge/article-arXiv:2401.05624-green)](https://doi.org/10.48550/arXiv.2401.05624) |
 
@@ -83,17 +82,6 @@ julia> include("./src/JexpressoHOmesh.jl")
 <img src="assets/thetaTracersMeshUnstr.png"
      alt="Markdown icon"
      style="float: left; margin-right: 5px;" />
-
-
-```
-@article{tissaoui2024,
-  author = {Y. Tissaoui and J. F. Kelly and S. Marras}
-  title = {Efficient Spectral Element Method for the Euler Equations on Unbounded Domains in Multiple Dimensions},
-  url = {https://arxiv.org/abs/2401.05624},
-  year = {2024},
-  journal = {arXiv:2401.05624 [math.NA]},
-}
-```
 
 ## Plotting
 Files can be written to VTK. 
