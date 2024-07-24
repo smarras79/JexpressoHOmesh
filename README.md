@@ -33,7 +33,7 @@ Please cite JexpressoHOmesh with:
 }
 ```
 
-If you are interested in contributing, please get in touch:
+Feel free to contact me if you have questions or if you are interested in contributing (for example, it would be nice to add curved-elements capabilities!)
 [Simone Marras](mailto:smarras@njit.edu)
 
 
