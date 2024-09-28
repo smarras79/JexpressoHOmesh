@@ -8,13 +8,11 @@
 | [![DOI](https://img.shields.io/badge/article-arXiv:2401.05624-green)](https://doi.org/10.48550/arXiv.2401.05624) |
 
 # JexpressoHOmesh
-This is a simple package that reads a GMSH grid file (another reader could be added as needed) and adds high-order Legendre-Gauss-Lobatto or Legendre-Gauss nodes.
-
+This is a simple package that reads a GMSH grid file (another reader could be added as needed) and adds high-order Legendre-Gauss-Lobatto or Legendre-Gauss nodes for arbitrary order spectral elements.
 
 <img src="assets/linearToHO.png"
      alt="Markdown icon"
      style="float: left; margin-right: 5px;" />
-
 
 Suggested Julia version: 1.10.0
 
@@ -94,6 +92,9 @@ julia> include("./src/JexpressoHOmesh.jl")
   journal = {arXiv:2401.05624 [math.NA]},
 }
 ```
+
+## The linear GMSH reader
+The linear mesh reader is from GridapGMSH.jl
 
 ## Plotting
 Files can be written to VTK. 
