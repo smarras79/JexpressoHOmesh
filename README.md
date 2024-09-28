@@ -95,7 +95,6 @@ julia> include("./src/JexpressoHOmesh.jl")
 ## The linear GMSH reader
 The linear mesh reader is from GridapGMSH.jl
 
-=======
 ## Plotting
 Files can be written to VTK. 
 
