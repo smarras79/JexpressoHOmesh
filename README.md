@@ -4,7 +4,7 @@
 | [![Simone Marras](https://img.shields.io/badge/Simone%20Marras-smarras%40njit.edu-8e7cc3)](mailto:smarras@njit.edu) |
 
 | **Citation** |
-| [![DOI](https://img.shields.io/badge/article-arXiv:2401.05624-green)](https://doi.org/10.48550/arXiv.2401.05624) |
+| [![DOI](https://www.sciencedirect.com/science/article/pii/S0096300324005411?via%3Dihub)](https://doi.org/10.1016/j.amc.2024.129080) |
 
 # JexpressoHOmesh
 This is a simple package that reads any 2D or 3D GMSH grid file (another reader could be added as needed) and adds high-order Legendre-Gauss-Lobatto or Legendre-Gauss nodes for arbitrary order spectral elements.
@@ -20,13 +20,13 @@ If you use JexpressoHOmesh please drop us a line to let us know. We'd like to ad
 Please cite JexpressoHOmesh with:
 
 ```
-@misc{tissaoui2024,
-      title={Efficient Spectral Element Method for the Euler Equations on Unbounded Domains in Multiple Dimensions}, 
-      author={Yassine Tissaoui and James F. Kelly and Simone Marras},
-      year={2024},
-      eprint={2401.05624},
-      archivePrefix={arXiv},
-      primaryClass={math.NA}
+@article{tissaoui2024,
+  author = {Y. Tissaoui and J. F. Kelly and S. Marras}
+  title = {Efficient Spectral Element Method for the Euler Equations on Unbounded Domains},
+  year = {2024},
+  volume={487},
+  pages={129080}, 
+  journal = {Appl. Math. Comput.},
 }
 ```
 
@@ -80,17 +80,6 @@ julia> include("./src/JexpressoHOmesh.jl")
 <img src="assets/thetaTracersMeshUnstr.png"
      alt="Markdown icon"
      style="float: left; margin-right: 5px;" />
-
-```
-@article{tissaoui2024,
-  author = {Y. Tissaoui and J. F. Kelly and S. Marras}
-  title = {Efficient Spectral Element Method for the Euler Equations on Unbounded Domains},
-  year = {2024},
-  volume={487},
-  pages={129080}, 
-  journal = {Appl. Math. Comput.},
-}
-```
 
 ## The linear GMSH reader
 The linear mesh reader is from GridapGMSH.jl
