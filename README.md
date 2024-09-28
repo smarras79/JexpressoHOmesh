@@ -77,7 +77,7 @@ julia> push!(empty!(ARGS), "grid");
 julia> include("./src/JexpressoHOmesh.jl")
 ```
 
-<img src="assets/thetaTracersMeshUnstr.png"
+<img src="assets/jexpresso2.png"
      alt="Markdown icon"
      style="float: left; margin-right: 5px;" />
 
