@@ -4,7 +4,7 @@
 | [![Simone Marras](https://img.shields.io/badge/Simone%20Marras-smarras%40njit.edu-8e7cc3)](mailto:smarras@njit.edu) |
 
 | **Citation** |
-| [![DOI](https://www.sciencedirect.com/science/article/pii/S0096300324005411?via%3Dihub)](https://doi.org/10.1016/j.amc.2024.129080) |
+| [![DOI](https://img.shields.io/badge/article-arXiv:2401.05624-green)](https://doi.org/10.1016/j.amc.2024.129080) |
 
 # JexpressoHOmesh
 This is a simple package that reads any 2D or 3D GMSH grid file (another reader could be added as needed) and adds high-order Legendre-Gauss-Lobatto or Legendre-Gauss nodes for arbitrary order spectral elements.
