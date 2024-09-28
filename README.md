@@ -2,8 +2,7 @@
 
 | **Contacts**  |
 | [![Simone Marras](https://img.shields.io/badge/Simone%20Marras-smarras%40njit.edu-8e7cc3)](mailto:smarras@njit.edu) |
-| [![Yassine Tissaoui](https://img.shields.io/badge/Yassine%20Tissaoui-yt277%40njit.edu-8e7cc3)](mailto:yt277@njit.edu) |
-| [![Hang Wang](https://img.shields.io/badge/Hang%20Wang-hang.wang%40njit.edu-8e7cc3)](mailto:hang.wang@njit.edu) |
+
 | **Citation** |
 | [![DOI](https://img.shields.io/badge/article-arXiv:2401.05624-green)](https://doi.org/10.48550/arXiv.2401.05624) |
 
@@ -31,7 +30,7 @@ Please cite JexpressoHOmesh with:
 }
 ```
 
-If you are interested in contributing, please get in touch:
+Feel free to contact me if you have questions or if you are interested in contributing (for example, it would be nice to add curved-elements capabilities!)
 [Simone Marras](mailto:smarras@njit.edu)
 
 
@@ -82,20 +81,21 @@ julia> include("./src/JexpressoHOmesh.jl")
      alt="Markdown icon"
      style="float: left; margin-right: 5px;" />
 
-
 ```
 @article{tissaoui2024,
   author = {Y. Tissaoui and J. F. Kelly and S. Marras}
-  title = {Efficient Spectral Element Method for the Euler Equations on Unbounded Domains in Multiple Dimensions},
-  url = {https://arxiv.org/abs/2401.05624},
+  title = {Efficient Spectral Element Method for the Euler Equations on Unbounded Domains},
   year = {2024},
-  journal = {arXiv:2401.05624 [math.NA]},
+  volume={487},
+  pages={129080}, 
+  journal = {Appl. Math. Comput.},
 }
 ```
 
 ## The linear GMSH reader
 The linear mesh reader is from GridapGMSH.jl
 
+=======
 ## Plotting
 Files can be written to VTK. 
 
